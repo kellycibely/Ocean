@@ -142,6 +142,25 @@ header .logo {
     font-size: 1.2em;
     color: var(--black);
 }
+.rightBtn {
+    position: absolute;
+    color: var(--black);
+    font-size: 3em;
+    right: 30px;
+    bottom: 50%;
+    z-index: 4;
+}
+.videoFlorest {
+    display: none;
+}
+.leftBtn {
+    position: absolute;
+    color: var(--black);
+    font-size: 3em;
+    left: 30px;
+    bottom: 50%;
+    z-index: 4;
+}
 .sci {
     position: absolute;
     right: 100px;
@@ -170,5 +189,13 @@ header .logo {
     .sci {
         right: 20px;
         bottom: 20px;
+    }
+    .rightBtn {
+        font-size: 2em;
+        right: 0;
+    }
+    .leftBtn {
+        font-size: 2em;
+        left: 0px;
     }
 }
